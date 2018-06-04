@@ -84,7 +84,7 @@
 }
 
 /*
-*  Tablets
+*  Tablets & Desktops
 */
 
 @media screen and (min-width: 551px) {
@@ -98,6 +98,19 @@
     .filter-options select{
         width: 30%;
         font-size: 17pt;
+    }
+    #restaurants-list li h1{
+        font-size: 20pt;
+        text-align: center;
+    }
+    #restaurants-list p{
+        font-size: 15pt;
+        text-align: center;
+    }
+    #restaurants-list li a{
+        display: list-item;
+        margin: 0px;
+        font-size: 20px;
     }
 }
 
