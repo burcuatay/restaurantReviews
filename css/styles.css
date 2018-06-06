@@ -9,8 +9,11 @@ body,td,th,p{
 }
 body {
 	background-color: #fdfdfd;
-	margin: 0;
-	position:relative;
+	margin: auto;
+  position:relative;
+  max-width: 1200px;
+  border-style: solid;
+  border-color: silver;
 }
 ul, li {
 	font-family: Arial, Helvetica, sans-serif;
@@ -71,7 +74,6 @@ nav h1 a {
     background-color: #eee;
     font-size: 17px;
     margin: 0;
-    width: 100%;
 }
 
 /* Display list items side by side */
@@ -191,10 +193,10 @@ nav h1 a {
 .inside #map-container {
   background: blue none repeat scroll 0 0;
   height: 87%;
-  position: fixed;
+  position: absolute;
   right: 0;
-  top: 103px;
   width: 50%;
+  margin: auto;
 }
 .inside #map {
   background-color: #ccc;
@@ -257,7 +259,7 @@ nav h1 a {
 }
 #reviews-list li {
   background-color: #fff;
-    border: 2px solid #f3f3f3;
+  border: 2px solid #aaa;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;

@@ -73,9 +73,31 @@
         font-size: 13px;
     }
     .inside #map-container {
-        top: 130px;
-        width: 50%;
+        width: 100%;
+        max-height: 150px;
       }
+    .inside #restaurant-container{
+        padding-top: 140px;
+        width: 100%;
+    }
+    #breadcrumb li{
+        font-size: 20px;
+    }
+    #breadcrumb {
+        padding: 10px 10px 16px;
+    }
+    #reviews-container{
+        width: 75%;
+    }
+    #reviews-list li p{
+        font-size: 11pt;
+    }
+    .inside #footer{
+        right: 0px;
+        left: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
 }
 
 @media screen and (min-width: 511px) {
@@ -91,10 +113,19 @@
 *  Tablets & Desktops
 */
 
-@media screen and (min-width: 505px) {
+@media screen and (min-width: 552px) {
+    body{
+        width: 100%;
+    }
     #restaurant-container{
         padding: 0px;
         width: 100%;
+    }
+    #breadcrumb li{
+        font-size: 30px;
+    }
+    #breadcrumb {
+        padding: 10px 10px 16px;
     }
     .filter-options h2 {
         font-size: 1.5rem;
@@ -116,12 +147,7 @@
         margin: 0px;
         font-size: 20px;
     }
-}
-
-@media screen and (min-width: 551px) and (max-width:760px){
-    #restaurants-list li{
-        width: 33%
+    #reviews-container{
+        width: 40%;
     }
 }
-
-
