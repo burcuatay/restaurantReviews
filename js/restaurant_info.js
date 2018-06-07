@@ -112,7 +112,7 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
   container.appendChild(ul);
 }
 
-/**
+/** ß
  * Create review HTML and add it to the webpage.
  */
 createReviewHTML = (review) => {
