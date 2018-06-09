@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Mobile Web Specialist Certification Course
 ---
 #### _Three Stage Course Material Project - Restaurant Reviews_
@@ -27,7 +26,3 @@ Most of the code in this project has been written to the ES6 JavaScript specific
 
 
 
-||||||| merged common ancestors
-=======
-# restaurantReviews
->>>>>>> 84ff1a2e3d1b4dc20a833d4edb2e5fecfa5919d5
